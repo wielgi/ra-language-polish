@@ -33,6 +33,10 @@
     {
       "name": "Tymoteusz Czech",
       "url": "https://www.tymek.cz"
+    },
+    {
+      "name": "Robert Wielgusiak",
+      "url": "https://www.linkedin.com/in/robert-wielgusiak-064392303/"
     }
   ],
   "license": "MIT",
@@ -41,12 +45,9 @@
   },
   "homepage": "https://github.com/tymek/ra-language-polish#readme",
   "devDependencies": {
-    "@types/node": "15.6.0",
-    "ra-core": "3.15.1",
-    "rimraf": "3.0.2",
-    "typescript": "4.2.4"
-  },
-  "peerDependencies": {
-    "ra-core": "3.x"
+    "@types/node": "^20.14.9",
+    "ra-core": "^5.0.2",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.5.2"
   }
 }
