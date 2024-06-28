@@ -30,6 +30,17 @@ const polishMessages: TranslationMessages = {
       open_menu: "Otwórz menu",
       close_menu: "Zamknij menu",
       create_item: "Utwórz element",
+      clear_array_input: "Wyczyść wybór",
+      remove_all_filters: "Usuń filtry",
+      select_all: "Zaznacz wszystko",
+      select_row: "Zaznacz wiersz",
+      update: "",
+      move_up: "Do góry",
+      move_down: "Do dołu",
+      open: "Otwórz",
+      toggle_theme: "Zmień motyw",
+      select_columns: "Zaznacz kolumny",
+      update_application: "Aktualizuj aplikację",
     },
     boolean: {
       true: "Tak",
@@ -89,6 +100,12 @@ const polishMessages: TranslationMessages = {
       yes: "Tak",
       unsaved_changes:
         "Niektóre zmiany nie zostały zapisane. Czy jesteś pewien, że chcesz je zignorować?",
+      auth_error: "Wystąpił błąd podczas walidacji tokenu uwierzytelniającego.",
+      bulk_update_content:
+        "Czy na pewno chcesz zaktualizować ten %{name}? |||| Czy na pewno chcesz zaktualizować te %{smart_count} elementy?",
+      bulk_update_title:
+        "Aktualizuj %{name} |||| Aktualizuj %{smart_count} %{name}",
+      clear_array_input: "Czy na pewno chcesz wyczyścić całą listę?",
     },
     navigation: {
       no_results: "Nie znaleziono wyników",
@@ -102,11 +119,18 @@ const polishMessages: TranslationMessages = {
       next: "Następna",
       prev: "Poprzednia",
       skip_nav: "Przejdź do treści",
+      partial_page_range_info:
+        "%{offsetBegin}-%{offsetEnd} z ponad %{offsetEnd}",
+      current_page: "Strona %{page}",
+      page: "Przejdź do strony %{page}",
+      first: "Przejdź do pierwszej strony",
+      last: "Przejdź do ostatniej strony",
+      previous: "Przejdz do poprzedniej strony",
     },
     sort: {
-        sort_by: 'Sortuj wg. %{field} %{order}',
-        ASC: 'rosnąco',
-        DESC: 'malejąco',
+      sort_by: "Sortuj wg. %{field} %{order}",
+      ASC: "rosnąco",
+      DESC: "malejąco",
     },
     auth: {
       auth_check_error: "Zaloguj się, aby kontynuować",
@@ -129,6 +153,9 @@ const polishMessages: TranslationMessages = {
       i18n_error: "Nie można załadować tłumaczeń dla określonego języka",
       canceled: "Akcja anulowana",
       logged_out: "Twoja sesja wygasła, zaloguj się ponownie.",
+      not_authorized:
+        "Nie jesteś autoryzowany do uzyskania dostępu do tej strony",
+      application_update_available: "Nowa wersja aplikacji jest dostępna",
     },
     validation: {
       required: "Wymagany",
@@ -140,6 +167,18 @@ const polishMessages: TranslationMessages = {
       email: "Musi być poprawnym adresem email",
       oneOf: "Musi być jednym z: %{options}",
       regex: "Musi pasować do konkretnego formatu (regexp): %{pattern}",
+    },
+    saved_queries: {
+      label: "Zapisane zapytania",
+      query_name: "Nazwa zapytania",
+      new_label: "Zapisz bieżące zapytanie...",
+      new_dialog_title: "Zapisz zapytanie jako",
+      remove_label: "Usuń zapisane zapytanie",
+      remove_label_with_name: 'Usuń zapytanie "%{name}"',
+      remove_dialog_title: "Usunąć zapisane zapytanie?",
+      remove_message:
+        "Czy na pewno chcesz usunąć to zapytanie z listy zapisanych zapytań?",
+      help: "Filtruj listę i zapisz to zapytanie na później",
     },
   },
 };
