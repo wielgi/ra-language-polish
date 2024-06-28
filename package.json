@@ -1,6 +1,6 @@
 {
   "name": "@wielgi/ra-language-polish",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Polish messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "lib/index.js",
   "module": "esm/index.js",
