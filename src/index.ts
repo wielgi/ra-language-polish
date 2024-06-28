@@ -34,7 +34,7 @@ const polishMessages: TranslationMessages = {
       remove_all_filters: "Usuń filtry",
       select_all: "Zaznacz wszystko",
       select_row: "Zaznacz wiersz",
-      update: "",
+      update: "Aktualizuj",
       move_up: "Do góry",
       move_down: "Do dołu",
       open: "Otwórz",
